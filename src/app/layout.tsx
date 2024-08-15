@@ -32,11 +32,10 @@ export default function RootLayout({
           </ul>
         </nav>
         <main className="flex-grow">{children}</main>
-        <footer className="bg-gray-200 text-center p-4">
+        <footer className="bg-blue-500 text-center p-4">
           <p>© 2024 Smart Home Inc. All rights reserved.</p>
         </footer>
       </body>
     </html>
   );
 }
-

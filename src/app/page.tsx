@@ -24,10 +24,6 @@ export default function Home() {
           <li>Energy Efficient</li>
         </ul>
       </section>
-
-      <footer className="w-full text-center py-6 bg-blue-500">
-        <p>© 2024 Smart Home Inc. All rights reserved.</p>
-      </footer>
     </main>
   );
 }
