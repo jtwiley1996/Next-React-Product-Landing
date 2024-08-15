@@ -12,8 +12,8 @@ export default function Home() {
         <Image
           src="/smart-light-bulb.jpg" // Make sure this image exists in the public folder
           alt="Smart Light Bulb"
-          width={600}
-          height={400}
+          width={900}
+          height={600}
           className="mx-auto"
         />
         <h2 className="text-2xl font-semibold mt-4">Features</h2>
