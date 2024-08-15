@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8">
+    <main className="flex min-h-screen flex-col items-center justify-between p-8 border-white border-2 w-[90%] mx-auto">
       <header className="w-full text-center py-10 text-white">
-        <h1 className="text-4xl font-bold">Smart Light Bulb</h1>
-        <p className="text-xl mt-2">Illuminate your home with smart technology</p>
+        <h1 className="text-4xl font-bold mb-9">Smart Light Bulb</h1>
+        <p className="text-xl mt-6">Illuminate your home with smart technology</p>
       </header>
 
       <section className="my-10 max-w-4xl mx-auto text-center">

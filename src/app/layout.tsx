@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className="bg-blue-500 text-white p-4">
+        <nav className="text-white p-4 w-[90%] mx-auto">
           <ul className="flex space-x-4">
             <li>
               <Link href="/">Home</Link>
@@ -32,7 +32,7 @@ export default function RootLayout({
           </ul>
         </nav>
         <main className="flex-grow">{children}</main>
-        <footer className="bg-blue-500 text-center p-4">
+        <footer className="text-center p-4">
           <p>© 2024 Smart Home Inc. All rights reserved.</p>
         </footer>
       </body>
