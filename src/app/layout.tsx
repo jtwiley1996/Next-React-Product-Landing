@@ -18,8 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className="text-white p-4 w-[90%] mx-auto">
-          <ul className="flex space-x-4">
+        <nav className="text-white p-4 w-[90%] mx-auto mt-9">
+          <ul className="flex space-x-4 opacity-75">
             <li>
               <Link href="/">Home</Link>
             </li>
