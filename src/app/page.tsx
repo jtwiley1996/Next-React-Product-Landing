@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8 border-white border-0.5 w-[90%] mx-auto">
+    <main className="flex min-h-screen flex-col items-center justify-between p-8 border-white border-0.05 w-[90%] mx-auto">
       <header className="w-full text-center py-10 text-white">
         <h1 className="text-8xl opacity-75 font-bold mb-9">Smart Light Bulb</h1>
         <p className="text-m mt-3 opacity-75">Illuminate your home with smart technology</p>

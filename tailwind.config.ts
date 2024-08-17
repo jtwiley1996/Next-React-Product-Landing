@@ -14,7 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       borderWidth: {
-        '0.5': '0.5px',  // Custom border width
+        '0.05': '0.05px',  // Custom border width
       },
     },
   },
