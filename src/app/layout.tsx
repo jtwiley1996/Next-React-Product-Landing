@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Smart Light Bulb Landing Page",
@@ -17,8 +14,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <nav className="text-white p-4 w-[90%] mx-auto mt-9">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body className="font-mono">
+        <nav className="text-white p-4 w-[80%] mx-auto mt-9">
           <ul className="flex space-x-4 opacity-75">
             <li>
               <Link href="/">Home</Link>
