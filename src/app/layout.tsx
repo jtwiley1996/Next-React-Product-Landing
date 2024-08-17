@@ -22,7 +22,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-mono">
+      <body className="font-mono fade-in">
         <header className="text-white p-4 w-[80%] mx-auto mt-9 flex justify-between items-center">
           <nav>
             <ul className="flex space-x-4 opacity-75">
@@ -52,4 +52,3 @@ export default function RootLayout({
     </html>
   );
 }
-
