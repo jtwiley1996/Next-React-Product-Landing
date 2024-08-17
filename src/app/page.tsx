@@ -19,8 +19,7 @@ export default function Home() {
           />
           <div className="absolute inset-0 bg-gradient-to-br from-transparent via-black/60 to-transparent pointer-events-none"></div>
         </div>
-        <h2 className="text-2xl font-semibold mt-4">Features</h2>
-        <ul className="list-disc list-inside mt-4">
+        <ul className="list-inside mt-4">
           <li>Voice Control</li>
           <li>Adjustable Brightness</li>
           <li>Color Changing</li>
