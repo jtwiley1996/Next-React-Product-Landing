@@ -23,19 +23,27 @@ export default function RootLayout({
         />
       </head>
       <body className="font-mono">
-        <nav className="text-white p-4 w-[80%] mx-auto mt-9">
-          <ul className="flex space-x-4 opacity-75">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/about">About</Link>
-            </li>
-            <li>
-              <Link href="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
+        <header className="text-white p-4 w-[80%] mx-auto mt-9 flex justify-between items-center">
+          <nav>
+            <ul className="flex space-x-4 opacity-75">
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/about">About</Link>
+              </li>
+              <li>
+                <Link href="/contact">Contact</Link>
+              </li>
+            </ul>
+          </nav>
+          <a
+            href="#learn-more"
+            className="bg-white text-black px-4 py-2 rounded-full shadow hover:bg-gray-100"
+          >
+            Learn More
+          </a>
+        </header>
         <main className="flex-grow">{children}</main>
         <footer className="text-center p-4">
           <p>© 2024 Smart Home Inc. All rights reserved.</p>
@@ -44,3 +52,4 @@ export default function RootLayout({
     </html>
   );
 }
+
