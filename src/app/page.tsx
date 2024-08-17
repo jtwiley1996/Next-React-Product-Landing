@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 border-white border-0.05 w-[80%] mx-auto">
       <header className="w-full text-center py-10 text-white">
-        <h1 className="text-7xl opacity-75 font-bold mb-9">Smart Light Bulb</h1>
-        <p className="text-m mt-3 opacity-75">Illuminate your home with smart technology</p>
+        <h1 className="text-8xl opacity-75 font-bold mb-9">LumaConnect</h1>
+        <p className="text-m mt-3 opacity-75 text-gradient">Illuminate your home with smart light technology</p>
       </header>
 
       <section className="relative my-10 max-w-4xl mx-auto text-center">
@@ -19,7 +19,7 @@ export default function Home() {
           />
           <div className="absolute inset-0 bg-gradient-to-br from-transparent via-black/60 to-transparent pointer-events-none"></div>
         </div>
-        <ul className="list-inside mt-4 opacity-75">
+        <ul className="list-inside mt-4 opacity-75 text-gradient">
           <li>Voice Control</li>
           <li>Adjustable Brightness</li>
           <li>Color Changing</li>
