@@ -39,7 +39,7 @@ export default function RootLayout({
             </ul>
           </nav>
           <a
-            href="#learn-more"
+            href="learn-more"
             className="bg-white text-black px-4 py-2 rounded-full shadow hover:bg-gray-100 opacity-75"
           >
             Learn More
