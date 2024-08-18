@@ -9,6 +9,16 @@ export default function LearnMore() {
       </header>
 
       <section className="relative my-10 max-w-4xl mx-auto text-center">
+        <div className="relative w-full h-auto mb-8">
+          <Image
+            src="/smart-light-bulb-2.jpg"
+            alt="Smart Light Bulb"
+            width={900}
+            height={600}
+            className="w-full h-auto object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-transparent via-black/60 to-transparent pointer-events-none"></div>
+        </div>
         <p className="text-lg opacity-75 mb-6">
           The LumaConnect smart light bulb is designed to revolutionize how you experience lighting in your home. 
           With advanced voice control capabilities, you can effortlessly adjust the lighting settings using simple voice commands. 
