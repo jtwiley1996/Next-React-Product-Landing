@@ -51,3 +51,20 @@ body {
 .fade-in {
   animation: fadeIn 3s ease-in-out;
 }
+
+/* globals.css */
+.grid-overlay {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.1) 1px, 
+    transparent 1px
+  ),
+  linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) 1px,
+    transparent 1px
+  );
+  background-size: 20px 20px; /* Adjust grid size here */
+  background-position: 0 0, 0 0;
+  z-index: 0;
+  pointer-events: none; /* Ensure it doesn’t interfere with other elements */
+}

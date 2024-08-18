@@ -22,8 +22,9 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-mono fade-in">
-        <header className="text-white p-4 w-[80%] mx-auto mt-9 flex justify-between items-center">
+      <body className="font-mono relative">
+        <div className="absolute inset-0 z-0 grid-overlay"></div>
+        <header className="text-white p-4 w-[80%] mx-auto mt-9 flex justify-between items-center relative z-10">
           <nav>
             <ul className="flex space-x-4 opacity-75">
               <li>
@@ -39,13 +40,13 @@ export default function RootLayout({
           </nav>
           <a
             href="#learn-more"
-            className="bg-white text-black px-4 py-2 rounded-full shadow hover:bg-gray-100"
+            className="bg-white text-black px-4 py-2 rounded-full shadow hover:bg-gray-100 opacity-75"
           >
             Learn More
           </a>
         </header>
-        <main className="flex-grow">{children}</main>
-        <footer className="text-center p-4">
+        <main className="flex-grow relative z-10">{children}</main>
+        <footer className="text-center p-4 relative z-10">
           <p>© 2024 Smart Home Inc. All rights reserved.</p>
         </footer>
       </body>

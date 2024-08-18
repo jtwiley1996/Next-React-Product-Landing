@@ -16,6 +16,11 @@ const config: Config = {
       borderWidth: {
         '0.05': '0.05px',  // Custom border width
       },
+      borderColor: {
+        'opacity-25': 'rgba(255, 255, 255, 0.25)',
+        'opacity-50': 'rgba(255, 255, 255, 0.5)',
+        'opacity-75': 'rgba(255, 255, 255, 0.75)',
+      },
     },
   },
   plugins: [],
