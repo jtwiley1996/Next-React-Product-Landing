@@ -30,7 +30,7 @@ export default function RootLayout({
       </head>
       <body className="font-mono relative">
         <div className="absolute inset-0 z-0 grid-overlay"></div>
-        <header className="text-white p-4 w-[80%] mx-auto mt-9 flex justify-between items-center relative z-10">
+        <header className="text-white p-4 w-[80%] mx-auto pt-9 flex justify-between items-center relative z-10">
           <nav>
             <ul className="flex space-x-4 opacity-75">
               <li className="flex items-center space-x-2">
