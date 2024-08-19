@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
+import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
+
+
 
 export const metadata: Metadata = {
   title: "Smart Light Bulb Landing Page",
@@ -27,14 +33,17 @@ export default function RootLayout({
         <header className="text-white p-4 w-[80%] mx-auto mt-9 flex justify-between items-center relative z-10">
           <nav>
             <ul className="flex space-x-4 opacity-75">
-              <li>
+              <li className="flex items-center space-x-2">
                 <Link href="/">Home</Link>
+                <FontAwesomeIcon icon={faHouse} className="icon" href="/"/>
               </li>
-              <li>
+              <li className="flex items-center space-x-2">
                 <Link href="/about">About</Link>
+                <FontAwesomeIcon icon={faLightbulb} className="icon" href="/about"/>
               </li>
-              <li>
+              <li className="flex items-center space-x-2">
                 <Link href="/contact">Contact</Link>
+                <FontAwesomeIcon icon={faAddressBook} className="icon" href="/contact"/>
               </li>
             </ul>
           </nav>
