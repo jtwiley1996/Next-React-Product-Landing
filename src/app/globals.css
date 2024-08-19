@@ -24,6 +24,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  height: 100%;
+  margin: 0;
 }
 
 @layer utilities {
@@ -67,8 +69,7 @@ body {
   background-size: 100% 100%, 20px 20px, 20px 20px; /* Adjust grid size and gradient coverage */
   background-position: 0 0, 0 0, 0 0;
   z-index: 0;
-  top: 0;
-  height: 100vh;
+  height: 100%;
   pointer-events: none; /* Ensure it doesn’t interfere with other elements */
 }
 
