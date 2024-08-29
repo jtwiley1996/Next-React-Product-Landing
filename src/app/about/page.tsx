@@ -4,8 +4,8 @@ export default function About() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 border-white bg-black border-opacity-25 border-0.05 w-[80%] mx-auto">
       <header className="w-full text-center py-10 text-white">
-        <h1 className="text-8xl font-bold mb-7">About Us</h1>
-        <p className="text-xl opacity-75 text-gradient mb-3">Learn more about our innovative smart light technology</p>
+        <h1 className="md:text-8xl text-4xl font-bold mb-7">About Us</h1>
+        <p className="md:text-xl text-md opacity-75 text-gradient mb-3">Learn more about our innovative smart light technology</p>
       </header>
 
       <section className="relative my-10 max-w-4xl mx-auto text-center">

@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 border-white bg-black border-opacity-25 border-0.05 w-[80%] mx-auto">
       <header className="w-full text-center py-10 text-white">
-        <h1 className="text-8xl font-bold mb-7">LumaConnect</h1>
-        <p className="text-xl opacity-75 text-gradient mb-3">Illuminate your home with smart light technology</p>
+        <h1 className="md:text-8xl text-4xl font-bold mb-7 ">LumaConnect</h1>
+        <p className="md:text-xl text-md opacity-75 text-gradient mb-3">Illuminate your home with smart light technology</p>
         <p className="text-xs opacity-75 italic"><span className="text-gradient">Starting at</span> $99</p>
       </header>
 
