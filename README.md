@@ -20,10 +20,9 @@ The development of this project was a key opportunity to enhance my skills in Re
 
 Explore the Smart Light Bulb Landing Page by clicking below:
 
-[Live Demo](https://your-live-demo-link.netlify.app)
+[Live Demo](https://lumaconnectslb.netlify.app/)
 <!----------------------------------------------------------------------------->
 [Live Demo Link]: # 'Check it out!'
 <!---------------------------------[ Buttons ]--------------------------------->
-[View Source Code]: https://github.com/yourusername/your-repository
+[View Source Code]: https://github.com/jtwiley1996/next-react-product-landing
 
-![Main Page](./src/assets/readme.png)
